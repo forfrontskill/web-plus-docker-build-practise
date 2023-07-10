@@ -4,6 +4,6 @@ WORKDIR /home/ilovedocker/app
 
 COPY hello.sh ./
 
-RUN sh hello.sh
-
 EXPOSE 3000
+
+ENTRYPOINT [ "sh", "hello.sh" ]
