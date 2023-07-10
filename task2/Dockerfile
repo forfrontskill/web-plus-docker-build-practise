@@ -4,6 +4,6 @@ WORKDIR /home/ilovedocker/app
 
 COPY hello.sh ./
 
-EXPOSE 3000
+RUN sh hello.s
 
-CMD sh hello.s
+EXPOSE 3000
