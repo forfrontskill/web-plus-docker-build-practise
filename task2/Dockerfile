@@ -6,4 +6,4 @@ COPY hello.sh ./
 
 EXPOSE 3000
 
-ENTRYPOINT /bin/sh -c sh hello.s
+CMD sh hello.s
